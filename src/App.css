@@ -1,0 +1,16 @@
+:root{
+    --text-color: #666666;
+    --button-color: #3360FF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}

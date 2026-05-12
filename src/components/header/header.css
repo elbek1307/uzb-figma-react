@@ -1,0 +1,37 @@
+
+
+
+nav{
+    width: 100%;
+}
+
+
+
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.nav_item a{
+    padding: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.nav_btn{
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
