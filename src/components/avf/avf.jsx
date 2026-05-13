@@ -6,42 +6,38 @@ import miya from "./miya.svg"
 import qol from "./qol.svg"
 
 
+import { useTranslation } from 'react-i18next'
+
 
 export const Avf = () => {
+ 
+  const {t, i18n} = useTranslation()
+
   return (
     <>
-       <section class="avf">
-        <div class="container">
-          <h2 class="avf_title">Avfzalliklarimiz</h2>
-          <hr class="avf_hr" />
-          <ul class="avf_list">
-            <li class="avf_item">
-              <img src={miya} alt="" class="avf_item_img" />
-              <h3 class="avf_item_title">Tezda xizmat ko’rsatish</h3>
-              <p class="avf_item_text">
-                Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan
-                kompaniyamiz Mijozlarimiz bizdan mamnun
-              </p>
+       <section className="avf">
+        <div className="container">
+          <h2 className="avf_title">{t("avf.title")}</h2>
+          <hr className="avf_hr" />
+          <ul className="avf_list">
+            <li className="avf_item">
+              <img src={miya} alt="" className="avf_item_img" />
+              <h3 className="avf_item_title">{t("avf.1title")}</h3>
+              <p className="avf_item_text">{t("avf.text")} </p>
             </li>
-            <li class="avf_item">
+            <li className="avf_item">
               <img
                 src={dokument}
                 alt=""
-                class="avf_item_img"
+                className="avf_item_img"
               />
-              <h3 class="avf_item_title">Yetuk mutahasislaimiz</h3>
-              <p class="avf_item_text">
-                Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan
-                kompaniyamiz Mijozlarimiz bizdan mamnun
-              </p>
+              <h3 className="avf_item_title">{t("avf.2title")}</h3>
+              <p className="avf_item_text">{t("avf.text")} </p>
             </li>
-            <li class="avf_item">
-              <img src={qol} alt="" class="avf_item_img" />
-              <h3 class="avf_item_title">Sizga maqul vaqtda</h3>
-              <p class="avf_item_text">
-                Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan
-                kompaniyamiz Mijozlarimiz bizdan mamnun
-              </p>
+            <li className="avf_item">
+              <img src={qol} alt="" className="avf_item_img" />
+              <h3 className="avf_item_title">{t("avf.3title")}</h3>
+              <p className="avf_item_text">{t("avf.text")} </p>
             </li>
           </ul>
         </div>

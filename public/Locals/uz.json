@@ -1,8 +1,29 @@
 {
-    "header": {
-        "Service": "Xizmatlar",
-        "About": "Biz haqimizda",
-        "Faq": "Savollar",
-        "Contact": "Aloqa"
-    }
+  "header": {
+    "service": "Xizmatlar",
+    "about": "Biz haqimizda",
+    "faq": "Savollar",
+    "contact": "Aloqa",
+    "button": "Kirish"
+  },
+
+  "hero": {
+    "title": "Dizenfeksiya xizmati",
+    "text": " Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun",
+    "button": "Bog’lanish"
+  },
+
+  "avf": {
+    "title": "Avfzalliklarimiz",
+    "1title": "Tezda xizmat ko’rsatish",
+    "2title": "Yetuk mutahasislaimiz",
+    "3title": "Sizga maqul vaqtda",
+    "text":" Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun"
+  },
+
+  "klapa": {
+     "title": "Klapa va zararli \n hashorot endi yo’q \n deb hisoblang !!!",
+    "text": " Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun",
+    "button": "Bog’lanish"
+  }
 }

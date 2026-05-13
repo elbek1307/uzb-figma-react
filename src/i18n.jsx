@@ -15,7 +15,13 @@ i18n
  
   .init({
     fallbackLng: 'en',
+      lng: "uz", // default til
+    fallbackLng: 'uz',
+
     debug: true,
+    backend: {
+    loadPath: "/Locals/{{lng}}.json",
+    },
 
     interpolation: {
       escapeValue: false, 

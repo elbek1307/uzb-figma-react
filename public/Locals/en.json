@@ -1,0 +1,29 @@
+{
+  "header": {
+    "service": "Services",
+    "about": "About us",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "button": "Login"
+  },
+
+  "hero": {
+    "title": "Disinfection Service",
+    "text": "Our company has been operating for many years. Our clients are satisfied with us.",
+    "button": "Contact"
+  },
+
+  "avf": {
+    "title": "Our Advantages",
+    "1title": "Fast Service",
+    "2title": "Experienced Specialists",
+    "3title": "At Your Convenient Time",
+    "text": "Our company has been successfully operating for many years. Our clients are satisfied with us."
+  },
+
+  "klapa": {
+    "title": "Consider that bedbugs and harmful insects are gone for good!!!",
+    "text": "Our company has been operating for many years. Our clients are satisfied with us.",
+    "button": "Contact"
+  }
+}
