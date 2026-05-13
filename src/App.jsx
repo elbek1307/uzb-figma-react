@@ -9,6 +9,8 @@ import { Ser } from './components/service/ser'
 import { Biz } from './components/biz/biz'
 import { Faq } from './components/faq/faq'
 import { Ma } from './components/ma/ma'
+import { Fut } from './components/footer/fut'
+
 
 const App = () => {
   return (
@@ -27,6 +29,8 @@ const App = () => {
      <Faq />
      <Ma />
      </main>
+
+     <Fut />
 
     </>
     

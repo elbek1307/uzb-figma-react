@@ -1,6 +1,8 @@
 import React from 'react'
 import "./fut.css"
 
+import up from "./up.svg"
+
 export const Fut = () => {
   return (
     <>
@@ -13,13 +15,13 @@ export const Fut = () => {
                 <div className="fut_box">
                     <img className="fut_box_img" src="./main_img/map.svg" alt="" />
                     <a className="fut_box_link" href="#">Toshkent shahri Yashnabod tumani Mo’ljal Sergeli-4 bekat</a>
-                    <img src="./main_img/up.svg" alt="" />
+                    <img src={up} alt="" />
                 </div>
                 
                 <div className="fut_box">
                     <img className="fut_box_img" src="./main_img/tel.svg" alt="" />
                     <a className="fut_box_link" href="tel:+998940993434">+998 94 099 3434</a>
-                    <img src="./main_img/up.svg" alt="" />
+                    <img src={up} alt="" />
                 </div>
 
                 
@@ -28,15 +30,15 @@ export const Fut = () => {
                 <div className="fut_wrap">
                     <div className="fut_wrap_btn">
                         <h3>Facebook</h3>
-                        <img src="./main_img/up.svg" alt="" />
+                        <img src={up} alt="" />
                     </div>
                     <div className="fut_wrap_btn">
                         <h3>Instagram</h3>
-                        <img src="./main_img/up.svg" alt="" />
+                        <img src={up} alt="" />
                     </div>
                     <div className="fut_wrap_btn">
                         <h3>Telegram</h3>
-                        <img src="./main_img/up.svg" alt="" />
+                        <img src={up} alt="" />
                     </div>
                 </div>
             </div>
