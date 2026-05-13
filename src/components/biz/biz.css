@@ -1,0 +1,36 @@
+.biz .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #33FFF3, #33A9FF );
+    padding: 30px;
+}
+
+
+.biz_img{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.biz_content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.biz_title{
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
+
+.biz_btn{
+    margin-top: 150px;
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}

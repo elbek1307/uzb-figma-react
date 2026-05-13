@@ -1,0 +1,73 @@
+
+.ser{
+    margin: 100px 0;
+}
+
+
+.ser_title{
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ser_text{
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.ser_list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.ser_item{
+    width: 33%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F6F6;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.ser_item_title{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.ser_item_text{
+    color: #056AC7;
+    margin: 20px 0;
+    margin-top: 30px;
+}
+
+.ser_item_link{
+    color: #056AC7;
+    text-decoration: none;
+}
+
+.ser_item_img{
+    width: 80px;
+    height: 80px;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.ser_item_text--orta{
+    color: #03ADE3;
+}
+
+.ser_item_link--orta{
+  color: #00A9B3;
+}
+
+.ser_item_text--yuqori{
+    color: #009AA3;
+}
+
+.ser_item_link--yuqori{
+    color: #00A9B3;
+}
