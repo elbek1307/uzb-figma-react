@@ -8,17 +8,26 @@ import Klapa from './components/klapa/klapa'
 import { Ser } from './components/service/ser'
 import { Biz } from './components/biz/biz'
 import { Faq } from './components/faq/faq'
+import { Ma } from './components/ma/ma'
 
 const App = () => {
   return (
     <>
-     <Header />
-     <Hero />
+    
+      <header>
+         <Header />
+      </header>
+
+     <main>
+      <Hero />
      <Avf />
      <Klapa />
      <Ser />
      <Biz />
      <Faq />
+     <Ma />
+     </main>
+
     </>
     
   )
