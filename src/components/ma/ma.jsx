@@ -1,6 +1,8 @@
 import React from 'react'
 import "./ma.css"
 
+import odam from "./odam.png"
+
 export const Ma = () => {
   return (
     <>
@@ -27,7 +29,7 @@ export const Ma = () => {
             </h2>
           </div>
 
-          <img src="./main_img/odam.png" alt="odam" className="ma_img" />
+          <img src={odam} alt="odam" className="ma_img" />
         </div>
       </section>
     </>
