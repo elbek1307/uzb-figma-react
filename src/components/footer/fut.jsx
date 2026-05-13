@@ -2,6 +2,9 @@ import React from 'react'
 import "./fut.css"
 
 import up from "./up.svg"
+import logo from "./nlogo.svg"
+import { LuMapPin } from "react-icons/lu"
+import { BsTelephone } from "react-icons/bs"
 
 export const Fut = () => {
   return (
@@ -9,17 +12,17 @@ export const Fut = () => {
       <footer>
         <div className="container">
            
-            <img src="./header_img/n logo.svg" alt="" className="fut_logo" />
+            <img src={logo} alt="" className="fut_logo" />
             
             <div className="fut_content">
                 <div className="fut_box">
-                    <img className="fut_box_img" src="./main_img/map.svg" alt="" />
+                    <LuMapPin  className='fut_icon'/>
                     <a className="fut_box_link" href="#">Toshkent shahri Yashnabod tumani Mo’ljal Sergeli-4 bekat</a>
                     <img src={up} alt="" />
                 </div>
                 
                 <div className="fut_box">
-                    <img className="fut_box_img" src="./main_img/tel.svg" alt="" />
+                    <BsTelephone  className='fut_icon'/>
                     <a className="fut_box_link" href="tel:+998940993434">+998 94 099 3434</a>
                     <img src={up} alt="" />
                 </div>

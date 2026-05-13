@@ -52,5 +52,14 @@ footer .container{
 }
 
 
+.fut_icon{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: solid 1px var(--text-color);
+    border-radius: 10px;
+}
+
+
 
 
