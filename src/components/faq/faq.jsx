@@ -2,6 +2,9 @@ import React from 'react'
 import "./faq.css"
 
 export const Faq = () => {
+
+
+
   return (
     <>
       <section class="faq">

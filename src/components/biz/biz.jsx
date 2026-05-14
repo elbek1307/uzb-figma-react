@@ -10,7 +10,7 @@ export const Biz = () => {
      <section class="biz">
         <div class="container">
           <img src={xalat} alt="" class="biz_img" />
-          <div class="biz_content">
+      /    <div class="biz_content">
             <h2 class="biz_title">
               Bizga ko'p yillardan beri <br />
               kompaniyamizga ishonch <br />

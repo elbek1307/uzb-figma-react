@@ -25,5 +25,20 @@
      "title": "Klapa va zararli \n hashorot endi yo’q \n deb hisoblang !!!",
     "text": " Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun",
     "button": "Bog’lanish"
+  },
+
+  "service": {
+    "title": "Xizmatlar",
+    "text": "Bu darsliklari sizning yuqori daraja olishingizga yordam beradi",
+    "list_title1": " Boshlang’ich \n tushunchalar",
+    "list_title2": "O’rta",
+    "list_title3": "Yuqori",
+    "list_text1": "nazariy bilimlar",
+    "list_text2": "nazariy va Amaliy bilimlar",
+    "list_text3": "Amaliy bilimlar",
+    "list_link1": "16 dars",
+    "list_link2": "23 dars",
+    "list_link3": "16 dars"
+
   }
 }
