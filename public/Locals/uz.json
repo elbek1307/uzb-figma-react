@@ -59,5 +59,12 @@
     "inp_check": " Maxfiylik siyosati",
     "title": "Bizga ko'p yillardan beri \n kompaniyamizga ishonch \n bildirganlar talaygina",
     "button": "Yozilish"
+  },
+
+  "footer": {
+    "map": "Toshkent shahri Yashnabod tumani Mo’ljal Sergeli-4 bekat",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "Telegram": "Telegram"
   }
 }

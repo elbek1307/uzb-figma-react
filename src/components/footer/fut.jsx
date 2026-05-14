@@ -5,8 +5,10 @@ import up from "./up.svg"
 import logo from "./nlogo.svg"
 import { LuMapPin } from "react-icons/lu"
 import { BsTelephone } from "react-icons/bs"
+import { useTranslation } from 'react-i18next'
 
 export const Fut = () => {
+    const {t, i18n} = useTranslation()
   return (
     <>
       <footer>
@@ -17,7 +19,7 @@ export const Fut = () => {
             <div className="fut_content">
                 <div className="fut_box">
                     <LuMapPin  className='fut_icon'/>
-                    <a className="fut_box_link" href="#">Toshkent shahri Yashnabod tumani Mo’ljal Sergeli-4 bekat</a>
+                    <a className="fut_box_link" href="#">{t("footer.map")}</a>
                     <img src={up} alt="" />
                 </div>
                 
@@ -32,15 +34,15 @@ export const Fut = () => {
 
                 <div className="fut_wrap">
                     <div className="fut_wrap_btn">
-                        <h3>Facebook</h3>
+                        <h3>{t("footer.facebook")}</h3>
                         <img src={up} alt="" />
                     </div>
                     <div className="fut_wrap_btn">
-                        <h3>Instagram</h3>
+                        <h3>{t("footer.instagram")}</h3>
                         <img src={up} alt="" />
                     </div>
                     <div className="fut_wrap_btn">
-                        <h3>Telegram</h3>
+                        <h3>{t("footer.telegram")}</h3>
                         <img src={up} alt="" />
                     </div>
                 </div>
