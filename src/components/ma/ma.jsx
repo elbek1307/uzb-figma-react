@@ -64,7 +64,7 @@ export const Ma = () => {
             />
 
             <span className="form_box">
-              <input className="ma_form_inp" type="checkbox" required />{t("inp_check")}</span>
+              <input className="ma_form_inp" type="checkbox" required />{t("ma.inp_check")}</span>
             <button type="submit" className="ma_form_btn">{t("ma.button")}</button>
           </form>
 

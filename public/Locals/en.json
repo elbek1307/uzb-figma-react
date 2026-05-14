@@ -9,7 +9,7 @@
 
   "hero": {
     "title": "Disinfection Service",
-    "text": "Our company has been operating for many years. Our clients are satisfied with us.",
+    "text": "Our company has been providing services for many years. Our clients are satisfied with us.",
     "button": "Contact"
   },
 
@@ -22,8 +22,49 @@
   },
 
   "klapa": {
-    "title": "Consider that bedbugs and harmful insects are gone for good!!!",
-    "text": "Our company has been operating for many years. Our clients are satisfied with us.",
+    "title": "Consider bedbugs and harmful insects \n completely gone !!!",
+    "text": "Our company has been providing services for many years. Our clients are satisfied with us.",
     "button": "Contact"
+  },
+
+  "service": {
+    "title": "Services",
+    "text": "These lessons will help you achieve a high level",
+    "list_title1": "Basic \n concepts",
+    "list_title2": "Intermediate",
+    "list_title3": "Advanced",
+    "list_text1": "theoretical knowledge",
+    "list_text2": "theoretical and practical knowledge",
+    "list_text3": "practical knowledge",
+    "list_link1": "16 lessons",
+    "list_link2": "23 lessons",
+    "list_link3": "16 lessons"
+  },
+
+  "biz": {
+    "title": "Many people have trusted \n our company for \n many years",
+    "button": "Contact"
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "list_title": "What will I get from the course",
+    "list_text": "If you cannot attend the lesson, \n the Zoom recording will be sent to your group afterwards"
+  },
+
+  "ma": {
+    "inp_title": "Leave your \n information",
+    "inp_login": "name",
+    "inp_nomer": "+998",
+    "inp_check": "Privacy Policy",
+    "title": "Many people have trusted \n our company for \n many years",
+    "button": "Register"
+  },
+
+  "footer": {
+    "map": "Tashkent city, Yashnabad district, near Sergeli-4 station",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "telegram": "Telegram"
   }
 }
