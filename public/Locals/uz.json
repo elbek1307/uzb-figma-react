@@ -44,5 +44,11 @@
   "biz": {
     "title": " Bizga ko'p yillardan beri \n kompaniyamizga ishonch \n bildirganlar talaygina",
     "button": "Bog’lanish"
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "list_title": "Kursdan nima topaman",
+    "list_text": "   Bu bir nonti kaypidaiy kapy darsga qatnasha olmasangiz, darsdan \n so‘ng guruhingizga zoom zapisi tashlab beriladi"
   }
 }
