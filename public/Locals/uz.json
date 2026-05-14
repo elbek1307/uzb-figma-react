@@ -50,5 +50,14 @@
     "title": "FAQ",
     "list_title": "Kursdan nima topaman",
     "list_text": "   Bu bir nonti kaypidaiy kapy darsga qatnasha olmasangiz, darsdan \n so‘ng guruhingizga zoom zapisi tashlab beriladi"
+  },
+
+  "ma": {
+    "inp_title": "Malumotingizni \n qoldiring",
+    "inp_login": "ism",
+    "inp_nomer": "+998",
+    "inp_check": " Maxfiylik siyosati",
+    "title": "Bizga ko'p yillardan beri \n kompaniyamizga ishonch \n bildirganlar talaygina",
+    "button": "Yozilish"
   }
 }
